@@ -6,8 +6,8 @@ require (
 	github.com/alexliesenfeld/health v0.8.0
 	github.com/andybalholm/brotli v1.1.2-0.20250424173009-453214e765f3 // indirect
 	github.com/barasher/go-exiftool v1.10.0
-	github.com/chromedp/cdproto v0.0.0-20250416210000-d7e4d624041a
-	github.com/chromedp/chromedp v0.13.6
+	github.com/chromedp/cdproto v0.0.0-20250724212937-08a3db8b4327
+	github.com/chromedp/chromedp v0.14.1
 	github.com/google/uuid v1.6.0
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	github.com/hashicorp/go-retryablehttp v0.7.7
@@ -27,7 +27,7 @@ require (
 	golang.org/x/crypto v0.39.0 // indirect
 	golang.org/x/net v0.41.0
 	golang.org/x/sync v0.15.0
-	golang.org/x/sys v0.33.0 // indirect
+	golang.org/x/sys v0.34.0 // indirect
 	golang.org/x/term v0.32.0
 	golang.org/x/text v0.26.0
 )
@@ -68,7 +68,7 @@ require (
 	github.com/dsnet/compress v0.0.2-0.20230904184137-39efe44ab707 // indirect
 	github.com/ebitengine/purego v0.8.4 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
-	github.com/go-json-experiment/json v0.0.0-20250223041408-d3c622f1b874 // indirect
+	github.com/go-json-experiment/json v0.0.0-20250725192818-e39067aee2d2 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-ole/go-ole v1.3.0 // indirect
