@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Go
         uses: actions/setup-go@v5
@@ -38,7 +38,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -59,7 +59,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Go
         uses: actions/setup-go@v5
@@ -80,7 +80,7 @@ jobs:
       tags_cloud_run: ${{ steps.build_test_push.outputs.tags_cloud_run }}
     steps:
       - name: Checkout source code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Build, test and push
         id: build_test_push
@@ -103,7 +103,7 @@ jobs:
       tags_cloud_run: ${{ steps.build_test_push.outputs.tags_cloud_run }}
     steps:
       - name: Checkout source code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Build, test and push
         id: build_test_push
@@ -126,7 +126,7 @@ jobs:
       tags_cloud_run: ${{ steps.build_test_push.outputs.tags_cloud_run }}
     steps:
       - name: Checkout source code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Build, test and push
         id: build_test_push
@@ -149,7 +149,7 @@ jobs:
       tags_cloud_run: ${{ steps.build_test_push.outputs.tags_cloud_run }}
     steps:
       - name: Checkout source code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Build, test and push
         id: build_test_push
@@ -193,7 +193,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Merge
         uses: ./.github/actions/merge
@@ -220,7 +220,7 @@ jobs:
       tags_cloud_run: ${{ steps.build_test_push.outputs.tags_cloud_run }}
     steps:
       - name: Checkout source code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Build, test and push
         id: build_test_push
@@ -242,7 +242,7 @@ jobs:
       tags_cloud_run: ${{ steps.build_test_push.outputs.tags_cloud_run }}
     steps:
       - name: Checkout source code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Build, test and push
         id: build_test_push
@@ -264,7 +264,7 @@ jobs:
       tags_cloud_run: ${{ steps.build_test_push.outputs.tags_cloud_run }}
     steps:
       - name: Checkout source code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Build, test and push
         id: build_test_push
@@ -286,7 +286,7 @@ jobs:
       tags_cloud_run: ${{ steps.build_test_push.outputs.tags_cloud_run }}
     steps:
       - name: Checkout source code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Build, test and push
         id: build_test_push
@@ -307,7 +307,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Merge
         uses: ./.github/actions/merge
