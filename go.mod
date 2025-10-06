@@ -35,7 +35,7 @@ require (
 require (
 	github.com/cucumber/godog v0.15.0
 	github.com/dlclark/regexp2 v1.11.5
-	github.com/docker/docker v28.2.2+incompatible
+	github.com/docker/docker v28.5.0+incompatible
 	github.com/docker/go-connections v0.5.0
 	github.com/mholt/archives v0.1.2
 	github.com/shirou/gopsutil/v4 v4.25.5
@@ -76,7 +76,6 @@ require (
 	github.com/gobwas/pool v0.2.1 // indirect
 	github.com/gobwas/ws v1.4.0 // indirect
 	github.com/gofrs/uuid v4.4.0+incompatible // indirect
-	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/gorilla/css v1.0.1 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-immutable-radix v1.3.1 // indirect
